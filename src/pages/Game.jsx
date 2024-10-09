@@ -111,7 +111,8 @@ const Game = () => {
   };
 
   return (
-    <div className="flex gap-8 justify-center items-center h-screen bg-[url('bgimg.jpg')] bg-cover bg-center">
+    // bg-[url('bgimg.jpg')] bg-cover bg-center
+    <div className="flex gap-8 justify-center items-center h-screen bg-gray-200">
       <div className="space-y-4">
         <div className="flex flex-col gap-4">
           {!gameStarted && (
